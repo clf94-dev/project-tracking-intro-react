@@ -1,0 +1,67 @@
+@media screen and (max-width: 789px) {
+  .reverse {
+    flex-flow: column-reverse;
+  }
+  .text-col {
+    margin-top: 5%;
+  }
+}
+.new {
+  background-color: black;
+
+  border-radius: 15px;
+  width: 60px !important;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.new p {
+  margin: 5% 12%;
+  color: white !important;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: hsl(231, 7%, 65%);
+}
+
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h3 {
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(231, 7%, 65%);
+}
+
+.text-col {
+  padding: 2% 7%;
+}
+
+.demo-btn {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  background-color: hsl(0, 100%, 68%) !important;
+  color: white !important;
+  border-radius: 10px !important;
+  padding: 0 5% !important;
+  margin-right: 15px !important;
+}
+h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: hsl(231, 7%, 65%);
+}
