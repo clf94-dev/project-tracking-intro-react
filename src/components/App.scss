@@ -1,0 +1,93 @@
+.intro-cont {
+    margin-top: 5%;
+    .text-col {
+        padding: 2% 7%;
+        .new {
+            background-color: black;
+            border-radius: 15px;
+            width: 65px !important;
+            height: 30px;
+            margin-top: 15px;
+            margin-right: 10px;
+            p {
+                margin: 8% 12%;
+                color: white !important;
+            }
+        }
+        p {
+            font-family: "Barlow", sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: hsl(231, 7%, 65%);
+        }
+        h1 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 70px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        h3 {
+            font-family: "Barlow", sans-serif;
+            margin-bottom: 5%;
+            font-size: 20px;
+            font-weight: 400;
+            color: hsl(231, 7%, 65%);
+        }
+        .demo-btn {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 18px;
+            background-color: hsl(0, 100%, 68%);
+            color: white;
+            border-radius: 10px !important;
+            padding: 0 5% !important;
+            margin-right: 15px !important;
+            &:hover {
+                background-color: white;
+                border: 1px solid hsl(0, 100%, 68%) !important;
+                color: hsl(0, 100%, 68%) !important;
+            }
+        }
+        h4 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 400;
+            color: hsl(231, 7%, 65%);
+        }
+    }
+}
+
+@media screen and (max-width: 789px) {
+    .intro-cont {
+        margin-top: 5%;
+        .text-col {
+            margin-right: 5%;
+            margin-top: 5%;
+            h1 {
+                font-size: 60px;
+                padding-right: 5%;
+            }
+            h3 {
+                font-size: 18px;
+                padding-left: 5px;
+            }
+            .demo-btn {
+                font-size: 15px;
+                width: 50%;
+                padding: 0 2% !important;
+            }
+            h4 {
+                font-size: 13px;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+    .reverse {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+}

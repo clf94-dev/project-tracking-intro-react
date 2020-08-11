@@ -4,8 +4,8 @@ import Devices from "../images/illustration-devices.svg";
 
 function Intro() {
   return (
-    <Grid container direction="row" className="reverse">
-      <Grid item md={6} className="text-col">
+    <Grid container direction="row" className="intro-cont reverse">
+      <Grid item md={6} xs={12} className="text-col">
         <Grid container direction="row" className="new-row">
           <Grid container className="new">
             <p>New</p>
